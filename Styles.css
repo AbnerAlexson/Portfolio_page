@@ -1,8 +1,10 @@
 body {
-    width: 100vw;
+    font-family:'Times New Roman', Times, sans-serif;
     display: flex;
+    flex-direction: column;
 }
 
 .section {
     border: 2px solid pink;
+    width: 100%;
 }
