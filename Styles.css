@@ -113,5 +113,48 @@ li {
 }
 
 /* End of Mainsection */
-/* End of Infosection */
+/* Start of Infosection */
 
+.info {
+    height: 70vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.info .projects {
+    display: flex;
+    gap: 80px;
+}
+
+.projects .projects-box {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-box .img {
+    border: 5px solid #3882F6;
+    height: 200px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+.projects p {
+    margin: 10px 0;
+    color: #404041;
+    font-size: 18px;
+    width: 140px;
+    text-align: center;
+}
+
+/* End of Infosection */
