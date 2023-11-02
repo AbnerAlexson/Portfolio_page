@@ -15,7 +15,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    height: 100px;
+    height: 80px;
     padding: 0;
     color: #E5E7EB;
     font-size: 18px;
@@ -39,8 +39,8 @@ body {
 }
 
 .navigation > ul {
-    border: 2px solid black;
     height: 100%;
+    margin: 0;
     padding: 0 10px 0 10px;
     display: flex;
     justify-content: space-evenly;
@@ -50,6 +50,12 @@ body {
 
 li {
     list-style: none;
+}
+
+.navigation  a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .mainsection {
