@@ -158,3 +158,35 @@ li {
 }
 
 /* End of Infosection */
+/* Start of Quotesection*/
+
+.quote {
+    background-color: #E5E7EB;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote div {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote h1 {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.quote p {
+    font-size: 23px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-right: 30px;
+    align-self: flex-end;
+}
+
+
